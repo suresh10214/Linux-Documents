@@ -1,0 +1,558 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Liberation Sans;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Dingbats;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Symbol;}
+{\f4\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s1\fi-431\li720\sbasedon28\snext28Contents 1;}
+{\s2\fi-431\li1440\sbasedon28\snext28Contents 2;}
+{\s3\fi-431\li2160\sbasedon28\snext28Contents 3;}
+{\s8\fi-431\li720\sbasedon28Lower Roman List;}
+{\s5\tx431\sbasedon24\snext28Numbered Heading 1;}
+{\s6\tx431\sbasedon25\snext28Numbered Heading 2;}
+{\s7\fi-431\li720Square List;}
+{\*\cs11\sbasedon28Endnote Text;}
+{\s4\fi-431\li2880\sbasedon28\snext28Contents 4;}
+{\s9\fi-431\li720Diamond List;}
+{\s10\fi-431\li720Numbered List;}
+{\*\cs12\fs20\superEndnote Reference;}
+{\s13\fi-431\li720Triangle List;}
+{\s14\tx431\sbasedon26\snext28Numbered Heading 3;}
+{\s15\fi-431\li720Dashed List;}
+{\s16\fi-431\li720\sbasedon10Upper Roman List;}
+{\s17\sb440\sa60\f1\fs24\b\sbasedon28\snext28Heading 4;}
+{\s18\fi-431\li720Heart List;}
+{\s34\fi-431\li720Box List;}
+{\s20\fi-431\li720\sbasedon10Upper Case List;}
+{\s21\fi-431\li720Bullet List;}
+{\s22\fi-431\li720Hand List;}
+{\*\cs23\fs20\sbasedon28Footnote Text;}
+{\s24\sb440\sa60\f1\fs34\b\sbasedon28\snext28Heading 1;}
+{\s25\sb440\sa60\f1\fs28\b\sbasedon28\snext28Heading 2;}
+{\s19\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28Contents Header;}
+{\s27\fi-431\li720Tick List;}
+{\s26\sb440\sa60\f1\fs24\b\sbasedon28\snext28Heading 3;}
+{\s29\fi-431\li720\sbasedon10Lower Case List;}
+{\s30\li1440\ri1440\sa120\sbasedon28Block Text;}
+{\s36\f4\sbasedon28Plain Text;}
+{\s32\tx1584\sbasedon5\snext28Section Heading;}
+{\s33\fi-431\li720Implies List;}
+{\s28\f0\fs24\lang1033Normal;}
+{\s35\fi-431\li720Star List;}
+{\*\cs31\fs20\superFootnote Reference;}
+{\s37\tx1584\sbasedon5\snext28Chapter Heading;}}
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\info\uc1}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch multipath - Unix, Linux }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch multipath is used to detect multiple paths to devices for fail-over or performance reasons and coalesces them }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch DM-Multipath can be used to provide:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Redundancy}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     DM-Multipath can provide failover in an active/passive configuration. In an active/passive configuration, only half the paths are used at any time for I/O. If any element of an I/O path (the cable, switch, or controller) fails, DM-Multipath switches to an alternate path.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Improved Performance}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     DM-Multipath can be configured in active/active mode, where I/O is spread over the paths in a round-robin fashion. In some configurations, DM-Multipath can detect loading on the I/O paths and dynamically re-balance the load. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch TYPE OF LVM}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In LVM, a volume group is divided up into logical volumes. There are three types of LVM logical volumes: linear volumes, striped volumes, and mirrored volumes. These are described in the following sections. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  A linear volume aggregates multiple physical volumes into one logical volume. For example, if you have two 60GB disks, you can create a 120GB logical volume. The physical storage is concatenated.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Creating a linear volume assigns a range of physical extents to an area of a logical volume in order. For example, as shown in Figure 2.2, \uc1\u8220\'93Extent Mapping\uc1\u8221\'94 logical extents 1 to 99 could map to one physical volume and logical extents 100 to 198 could map to a second physical volume. From the point of view of the application, there is one device that is 198 extents in size. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The physical volumes that make up a logical volume do not have to be the same size. Figure 2.3, \uc1\u8220\'93Linear Volume with Unequal Physical Volumes\uc1\u8221\'94 shows volume group VG1 with a physical extent size of 4MB. This volume group includes 2 physical volumes named PV1 and PV2. The physical volumes are divided into 4MB units, since that is the extent size. In this example, PV1 is 100 extents in size (400MB) and PV2 is 200 extents in size (800MB). You can create a linear volume any size between 1 and 300 extents (4MB to 1200MB). In this example, the linear volume named LV1 is 300 extents in size. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can configure more than one linear logical volume of whatever size you desire from the pool of physical extents. Figure 2.4, \uc1\u8220\'93Multiple Logical Volumes\uc1\u8221\'94 shows the same volume group as in Figure 2.3, \uc1\u8220\'93Linear Volume with Unequal Physical Volumes\uc1\u8221\'94, but in this case two logical volumes have been carved out of the volume group: LV1, which is 250 extents in size (1000MB) and LV2 which is 50 extents in size (200MB). }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  Striped Logical Volumes}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch When you write data to an LVM logical volume, the file system lays the data out across the underlying physical volumes. You can control the way the data is written to the physical volumes by creating a striped logical volume. For large sequential reads and writes, this can improve the efficiency of the data I/O.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Striping enhances performance by writing data to a predetermined number of physical volumes in round-round fashion. With striping, I/O can be done in parallel. In some situations, this can result in near-linear performance gain for each additional physical volume in the stripe.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The following illustration shows data being striped across three physical volumes. In this figure:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the first stripe of data is written to PV1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the second stripe of data is written to PV2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the third stripe of data is written to PV3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the fourth stripe of data is written to PV1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In a striped logical volume, the size of the stripe cannnot exceed the size of an extent. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2.3.3. Mirrored Logical Volumes}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A mirror maintains identical copies of data on different devices. When data is written to one device, it is written to a second device as well, mirroring the data. This provides protection for device failures. When one leg of a mirror fails, the logical volume becomes a linear volume and can still be accessed.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch LVM supports mirrored volumes. When you create a mirrored logical volume, LVM ensures that data written to an underlying physical volume is mirrored onto a separate physical volume. With LVM, you can create mirrored logical volumes with multiple mirrors.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch An LVM mirror divides the device being copied into regions that are typically 512KB in size. LVM maintains a small log which it uses to keep track of which regions are in sync with the mirror or mirrors. This log can be kept on disk, which will keep it persistent across reboots, or it can be maintained in memory.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Figure 2.6, \uc1\u8220\'93Mirrored Logical Volume\uc1\u8221\'94 shows a mirrored logical volume with one mirror. In this configuration, the log is }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch why lvm snapshot}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This tutorial shows how you can create backups of LVM partitions with an LVM feature called LVM snapshots. An LVM snapshot is an exact copy of an LVM partition that has all the data from the LVM volume from the time the snapshot was created. The big advantage of LVM snapshots is that they can be used to greatly reduce the amount of time that your services/databases are down during backups because a snapshot is usually created in fractions of a second. After the snapshot has been created, you can back up the snapshot while your services and databases are in normal operation.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Create the snapshot volume}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch There is a little over 500 Megabytes of free space in the "ops" volume group, so we will use all of it to allocate space for the snapshot logical volume. A snapshot volume can be as large or a small as you like but it must be large enough to hold all the changes that are likely to happen to the original volume during the lifetime of the snapshot. So here, allowing 500 megabytes of changes to the database volume which should be plenty.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # lvcreate -L592M -s -n dbbackup /dev/ops/databases }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvcreate -- WARNING: the snapshot must be disabled if it gets full}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvcreate -- INFO: using default snapshot chunk size of 64 KB for "/dev/ops/dbbackup"}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvcreate -- doing automatic backup of "ops"}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvcreate -- logical volume "/dev/ops/dbbackup" successfully created}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Mount the snapshot volume}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch We can now create a mount-point and mount the volume}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # mkdir /mnt/ops/dbbackup}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # mount /dev/ops/dbbackup /mnt/ops/dbbackup}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch mount: block device /dev/ops/dbbackup is write-protected, mounting read-only}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch           }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch            Do the backup}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch I assume you will have a more sophisticated backup strategy than this!}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # tar -cf /dev/rmt0 /mnt/ops/dbbackup}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch tar: Removing leading `/' from member names}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch           }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 13.4.4. Remove the snapshot}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch When the backup has finished you can now unmount the volume and remove it from the system. You should remove snapshot volume when you have finished with them because they take a copy of all data written to the original volume and this can hurt performance.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # umount /mnt/ops/dbbackup}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # lvremove /dev/ops/dbbackup }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvremove -- do you really want to remove "/dev/ops/dbbackup"? [y/n]: y}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch lvremove -- doing automatic backup of volume group "ops"}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch               lvremove -- logical volume "/dev/ops/dbbackup" successfully removed}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch           }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Adding new SAN LUNs to Redhat without rebooting}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Start with fdisk -l to see if the presented LUN is detected.If not detected, run Kudzu and then run hdparm -z <device name>.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Try running "sfdisk -R". Then check with fdisk -l or sfdisk -l to see if the new LUNs are detected. If not, then try the method given below:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Assuming that there are two hbas, numbered 0 and 1 :-}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo "- - -" > /sys/class/scsi_host/host0/scan}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo "- - -" > /sys/class/scsi_host/host1/scan }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch If The Device Really Exist And Correctly Attached , You Can run}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch "fdisk -l" .}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This Command Probes The Devices And Try To Find And Show Information About}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Founded Devices..}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Then You Can Mount Founded Device By "mount" Command Of If Disks Are Brand}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch New}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You Can Execute "fdisk' , "mkfs" & then Mount Them }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch if you using maltipathing,}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch than you will get disk to the following path}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch /dev/mapper/mpath0}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch /dev/mapper/mpath1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch mpath0 is the first LUN following 1,2,3 and so on}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch NFS Tutorial :: Making it faster!!1!}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch NFS has several settings that can have an impact on the speed it provides.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Of course, the REAL improvements in speed will be made with faster networks, and crazy-fast servers with RAID-62 7th generation SSD's. But don't discount optimizing your NFS system in the settings alone.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What follows are the results of a small study done with various NFS settings. All tests done on 100MBs Ethernet systems. The numbers themselves don't mean anything, simply the fact that the numbers get bigger or smaller in a given test.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Sync vs. Async}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Just like most filesystems, there is a distiction between synchronous mode and asynchronous mode. In the Synchronous mode, changes happen either all the way or not at all. No action can be taken until the change has been committed.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In the Asynchronous mode, the server can play fast and loose with files. Less care is taken to keep the filesystem in a consitent state. This reduced overhead can spell small perfomance gains if nothing goes wrong, and data loss if something does go wrong.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch MB/s}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch rsize/wsize\tab async\tab sync}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1024 \tab 1.941 \tab 1.912}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4096 \tab 2.996 \tab 2.768}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 8192 \tab 3.075 \tab 3.02}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This is a small sample of some apples-apples settings, the only difference being async and sync. As you see, for any set of settings, async is slightly faster. This may or may not be reason to risk an inconsistent filesystem}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The meaning of the options is as follows:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch rw}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the filesystem is writable}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ro}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     the filesystem is exported read-only; this is the default}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root_squash}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     map root UID/GID to anonymous UID/GID (nobody/nogroup); this is the default}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch all_squash}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     map all UIDs/GIDs to anonymous UID/GID (nobody/nogroup)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch no_root_squash}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     do not map root (nor any other) UID/GID to anonymous UID/GID (nobody/nogroup)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch sync}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     reply clients after data have been stored to stable storage; this is the default}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch async}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     reply clients before data have been stored to stable storage; improves performance, but should only be used on ro filesystems}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch See man -L en exports for more information on the supported options. After changes of the configuration file, the NFS server can be forced to re-read it with}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # exportfs -r}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch How to do Linux NFS Performance Tuning and Optimization}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Read: NFS(Network File System) in Linux}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The things which we skipped in the above tutorial are 1. NFS Performance Tuning Guidelines, and 2. Securing NFS, We will be doing a separate post for security related stuff. In this post we will be discussing topics that in some or the other way affects the performance of NFS.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch NFS Performance tuning can be classified to three different areas. We will be discussing them separately in this tutorial. Lets have a look at these classifications first.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Underlying Disk Related Performance that affects NFS}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     NFS Application based Performance}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     And finally Network Related NFS tuning (NFS is a technology that relies heavily on network)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Tuning both the NFS server and NFS client, both are very much important, because they are the ones who take part in this network file system communication. So let's begin this with some mount command options, that can be used to tune NFS performance, primarily from the client side.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Mount command Block Size Settings to improve NFS performance}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The amount and size of data, that the server and the client uses, for passing data between them is very much important. Most of the NFS versions has a default value for this settings. However you can always tune these values to suite your needs. We will be working with the same NFS server and client, that we have used for our previous tutorial.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Assume that you have an NFS share mounted on one of your NFS client system. Let's have a look at the default properties of this mount.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 6}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# mount 192.168.0.103:/data /mnt}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# df -h}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Filesystem            Size  Used Avail Use% Mounted on}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch /dev/sda1              38G  5.6G   31G  16% /}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch tmpfs                 252M     0  252M   0% /dev/shm}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 192.168.0.103:/data    38G  2.8G   34G   8% /mnt}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]#}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Let's have a look at the properties and options that the NFS client selected by default to mount this share. We can easily get that information from the file /proc/mounts.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# cat /proc/mounts}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 192.168.0.103:/data /mnt nfs rw,vers=3,rsize=32768,wsize=32768,hard,proto=tcp,timeo=600,retrans=2,sec=sys,addr=192.168.0.103 0 0}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]#}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You will also get details about other file systems mounted on your system from the above file, however i have only shown you the details reated to our NFS share mounted, to avoid confusion.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The details, shows you the default options that were used, while mounting that particular share on the client.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch rw Tells that the file system is mounted in read/write mode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch vers=3 This means we are using NFS version 3 for this mount}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch rsize=32768  & wsize=32768 This specifies the size of the data chunk that each RPC packet takes while reading and writing. Tuning them will sometimes increase performance and can also sometimes reduce the performance. Let's see why.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Tuning rsize & wsize must always be done by keeping the capacity of your network, as well as the processing and performance power of your client and the server. So let's say you have decided to decrease the size of rsize & wsize in your mount. Decreasing the size of read and write in RPC packets, will increase the total number of network IP packet's that need to be send over the network.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Which means if you have 1 MB of data, dividing it into equal chunks of 32KB will increase the number of chunks, and if you divide it in equal chunks of 64KB the number of chunks will be reduced. Which means you need to send a high number of IP packet's over the network if you decrease these values, and if you increase these values, you will have to send less number of IP packets over the network.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch So our decision on modifying this parameter, must always depend on the network capability. If suppose you have 1 Gigabit port on your NFS server and client, and your network switches connecting these server's also are capable of 1G ports, then i would suggest to tweak these parameter's to a higher value.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can easily modify rsize and wsize values while mounting as shown below(The maximum value that can be set is 65536, which depends on the current kernel version you have).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# mount 192.168.0.104:/data  /mnt -o rsize=65536,wsize=65536}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Like the above shown mount command, you can modify the rsize and wsize options in NFS. Or otherwise you can modify it permanently in the fstab mount entry.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The best method to select a good rsize and wsize value for you is to alter them to different values and do a read/write performance test. And then select the value that gives you the best performance. You can refer to our post read/write performance test in linux , to test the speed.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Modifying Network MTU Size for NFS}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch MTU stands for Maximum Transmission Unit. Its the highest amount of data that can be passed in one Ethernet frame. Most of the machine's have them configured to the default value of 1500 bytes.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch To get the current value of your MTU, on your NIC cards, you can run the below command.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# netstat -i}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Kernel Interface table}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Iface       MTU Met    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch eth0       1500   0      227      0      0      0      235      0      0      0}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Or alternatively you can also get the value of MTU from ifconfig command in Linux.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Suppose let's say that your rsize and wsize value is 8 KB, and you are using 1500 bytes MTU size, then data will still be fragmented while sending because the maximum size is 1500 bytes.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In that case if you modify your MTU size to 9000 bytes, it will be able to send the whole 8kb read/write data without fragmenting in one frame. But to get the thing accomplished, you need to change the MTU of both the server and the client to the same value.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Changing MTU is quite simple in linux. You can specify the MTU size of your required interface card configuration file. Suppose you need to change the MTU for your eth0 interface. You simply need to edit the file /etc/sysconfig/network-scripts/ifcfg-eth0, and add the line "MTU=9000"}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Otherwise you can also change MTU with the help of ifconfig command as shown below.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# ifconfig eth0 mtu 9000 up}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# ifconfig}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch eth0      Link encap:Ethernet  HWaddr 08:00:27:55:D1:CC}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch           inet6 addr: fe80::a00:27ff:fe55:d1cc/64 Scope:Link}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch           UP BROADCAST RUNNING MULTICAST  MTU:9000  Metric:1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Note: Changing the MTU size is quite risky in production network, because it can affect your current running applications sometimes. And also some ISP's do not accept frames that are larger than their specified MTU size.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch timeo and retrans options in NFS}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The above two options affect the number of retry attempts made by the client to the server in case of a delayed response from the server or sometimes no response from the server.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch timeo option in NFS decides the time the client needs to wait before it comes to a conclusion that it must retransmit the packet. The default value is 0.7(It is calculated in tenth of the second given. So if you give a value of 5 timeo then it means the client will wait for 5/10 seconds before deciding that it needs to resend the packet.)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch And the second option retrans decides the total number of attempts made by the client, incase it gets a timeout (after waiting for timeo seconds you provided).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch So if you give retrans value as 3, the client will resend the RPC packet 3 times(and each time it will wait for timeo seconds) before coming to a conclusion that the server is not available and will give you a message called "Server not responding". Also after the message the counter resets and the client will still keep on trying(With the same timeo and retrans values).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can modify timeo and retrans values as an option in mount command as shown below.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# mount 192.168.0.102:/data /mnt -o timeo=5,retrans=4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]#}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch If you want to see the current nfst statistics for retranmission of packets, then you can use nfsstat command as shown below.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# nfsstat -r}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Client rpc stats:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch calls      retrans    authrefrsh}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 5          0          0}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch On a conjusted network, where you client get's a reply from the server but is a little delayed(Due to which retrans happens too often), you can increase the timeo value. This will result in a little bit increase in performance.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Number of NFS threads on the NFS server}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Another important factor that needs to be taken care of while working with NFS is the total number of NFS threads that are available on the NFS server. If you have a large number of clients that access your NFS server, then it will be better to increase the number of threads on the NFS server.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can have a look at the current number of threads on your NFS server by the below command.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 6}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 9}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 10}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot1 ~]# ps aux | grep nfs}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4794  0.0  0.0      0     0 ?        S<   03:18   0:00 [nfsd4]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4795  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4796  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4797  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4798  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4799  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4800  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4801  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch root      4802  0.0  0.0      0     0 ?        S    03:18   0:00 [nfsd]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch If you count the total number of nfsd process it will be 8 (Which is the default number). Which means if you have a large number of clients accessing this NFS server, they will experience some amount of lag in their operations.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Let's increase this number to some higher number like 20. You can modify this value in /etc/sysconfig/nfs  file.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # Number of nfs server processes to be started.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch # The default is 8.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch RPCNFSDCOUNT=16}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch After modifying that value, you need to restart the nfs service. You should now get 16 instead of 8 in the process list.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Async and Sync in NFS mount}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch These are the two values that determines how data is written on the server on a client request.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Both has their own advantages and disadvantages. Let's first understand what is async and sync in NFS mount.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Whatever you do on an NFS client is converted to an RPC equivalent operation, so that it can be send to the server using RPC protocol. So if you are using async option in NFS, when the server reieves an RPC operation for writing, it first converts that operation to a VFS(Virtual File System) operation to write the data in the underlying disk system.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch As soon as the VFS handle's the write operation to the underlying disk, even before getting an acknowledgement that the write operation is completed, the Server becomes ready to accept further RPC write operations. In this case the NFS server increases the performance for writing, by reducing the time needed to complete the write operation.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch But this method can sometimes cause data loss and corruption, because the NFS server starts to accept more write operations even before the underlying disk system has completed doing its job.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Using sync option will do the reverse. In this case the server will reply only after a write operation has successfully completed (Which means only after the data is completely written to the disk.).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch If you are dealing with critical data then i will never suggest to use async option, however async is a good choice where your data is not that highly critical.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]# mount 192.168.0.101:/data /mnt -o rw,async}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Similarly as shown above you can also use sync option according to your requirement. You can make this mount permanent by making an entry in fstab.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 192.168.0.101:/data  /mnt  nfs  rw,async   0   0}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Tuning Input and output Socket Queue for NFS performance}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Transferring large file's over network requires high memory on the server as well as the client. However the Linux machine,  by default never allocates a high amount of memory for this purpose, as it requires memory for other applications as well.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can further tune it and allocate a higher memory, if you are having heavy input and output through network.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch There are two values that can be modified to tune them. One is the socket input queue and the other is the socket output queue. Input queue is the place where requests that needs to be processed queue up.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Output queue is the place where the requests that are going out side queue up.  We have already seen that increasing the number of NFS server threads on the server can improve performance. Imagine you have 16 threads on your server, and each are processing requests from separate clients. Each of them uses the same socket input and output queue (and even other applications on the server will use this queue for processing their request.). Which means if you have a higher input and output socket queue size, then all of your threads can effectively send and receive data.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can modify those values by modifying the sysctl.conf file, or if you want, you can directly modify the files in /proc (you need to restart nfs server after modifying this)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo 219136 > /proc/sys/net/core/rmem_default}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo 219136 > /proc/sys/net/core/rmem_max}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch And you can also modify the output queue by modifying the wmem_default & wmem_max values as shown below.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo 219136 > /proc/sys/net/core/wmem_default}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch echo 219136 > /proc/sys/net/core/wmem_max}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Anything that you modify in /proc file system is temporary, because its the value that's stored in the RAM, which does not persist across reboots. You can make these entries permanent by making an entry in sysctl.conf as shown below.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]#echo 'net.core.wmem_max=219136' >> /etc/sysctl.conf}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [root@slashroot2 ~]#echo 'net.core.rmem_max=219136' >> /etc/sysctl.conf}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Underlying Disk Configuration in NFS server}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The configuration and make of the underlying DISK, which you expose as an NFS share on the server plays a significant role in the performance. If you have your NFS share on a RAID array, then that can improve the read and write performance depending upon the raid level configured.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Read: Understanding Different Level's of Raid}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The best raid level to prefer is always raid level 10. But its pretty costly because of the number of disk's used. If you want a nice read speed, then you can always go for raid level 5 or 6. But raid level 5 and 6 are bit slow for write.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Tune each and every parameter's suggested in this article, by continuously performing the read/write performance test, to reach an optimum level of tuning.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch How to patch a Linux kernel}{\s28\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Download and apply the patch to the kernel sources, then compile and build the new kernel. In this example, we are upgrading the 2.6.3 kernel to 2.6.4.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The patch must be in the next-highest directory upstream from your build tree, like this:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch $ ls ~/src}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch linux-2.6.3 patch-2.6.4.bz2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Now change to the top level of your build tree, then unpack and apply the patch:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch $ cd linux-2.6.3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch $ bzip2 -dc ../patch-2.6.4.bz2 | patch -s -p1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Or, you can do a test drive with the \uc1\u8212\'97dry-run option:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch $ bzip2 -dc ../patch-2.6.4.bz2 | patch -s -p1 \uc1\u8212\'97dry-run}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Now configure and build your kernel, and away you go.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Your build tree thoughtfully includes a script to handle applying patches for you, in /scripts/patch-kernel. This is a great little script, especially when you have several patches to apply, because it automatically applies them in the correct order. Usage is simple. From your top-level source directory, run:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch $ scripts/patch-kernel}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Patches must be applied in order, and you must have all of them. For example, to use patch-2.6.5-rc6, you also need the first five patches in the series (rc1 through rc5). When you're upgrading to a newer point release, you can't skip any of them; all of them have to be applied in sequence.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This is what the different patch options mean:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -d}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Decompress.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -c}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Send output to stdout.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ../ patch-2.6.4.bz2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Specifies that the patch file is one directory level up.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -s}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Silent output, except for errors.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -p}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Strips directory prefixes from the filenames in the patch, also called the "patch level." p1 strips the first prefix from the filepaths in the patch, because it's highly unlikely that you have the same directory structure as the author of the patch. p0 would do a literal copy, and the operation would probably fail.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -s}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Successful operation returns no output}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Kernel patches come in several flavors. Release candidate (rc) patches are one step removed from being accepted into the stable kernel trees; pre-release (pre) candidates are two steps away. If you're dying to have a new feature and you don't want to wait for the final stable release, rc and pre patches are the way to go. Numbering is seemingly backward: patch-2.6.5-rc3 will wind up in the 2.6.4 kernel.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The official kernel releases on Kernel.org are the "Linus" kernel trees. These are well tested and considered production-ready. Even-numbered kernels are stable releases; odd-numbered kernels are under development. The Linux kernel is actively maintained back to 2.0, and all kernels back to the beginning of Linux are available in the archives.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Each stable kernel has its own maintainer. Linus Torvalds, of course, is the Big Boss of everything. The maintainers of the individual kernels are.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     David Weinehall (2.0)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Marc-Christian Petersen (2.2)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Marcelo Tosatti (2.4)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Andrew Morton (2.6)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Then there are the various kernel trees, run by different maintainers. These are where new designs and features are tested. If they survive, they will eventually be merged into the stable kernel tree. Patches from these have the maintainer's initials appended, as in patch-2.6.5-rc3-mm4. The abbreviations you'll see are:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1033{\*\listtag0}\par}}
